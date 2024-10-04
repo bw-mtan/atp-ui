@@ -1,0 +1,44 @@
+.grid-top-spacing{
+    margin-top: 24px;
+}
+.stack-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box-selection {
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align:left;
+    height: 230px;
+}
+.stretch-textfield {
+    width:100%;
+}
+.pr-20 {
+    padding-right: 20px !important;
+}
+.ml-20{
+    margin-left: 20px !important;
+}
+.stack-horizontal-end {
+    display: flex;
+    justify-content: flex-end;
+}
+.mr-20 {
+    margin-right: 20px !important;
+}
+.pl-1 {
+    padding-left: 1rem;
+}
+.pr-1 {
+    padding-right: 1rem;
+}
+.pt-1 {
+    padding-top: 1rem;
+}
+button.retrieve-text {
+    line-height: 50px !important;
+}

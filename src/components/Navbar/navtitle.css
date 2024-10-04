@@ -1,0 +1,28 @@
+
+.NavTitleNavigation {
+    display: flex;
+    align-self: stretch;
+    padding: 20px 15px 15px 15px;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    grid-gap: 10px;
+    gap: 10px;
+    border-bottom: 1px solid rgba(22, 54, 94, 0.15);
+    border-bottom: 1px solid var(--light-other-divider, rgba(22, 54, 94, 0.15));
+    background: hsla(0, 0%, 100%, 0.9);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+  
+  .frame {
+    /* justify-content: space-between;
+    height: 40px;*/
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    align-items: flex-start;;
+  }
+.navtitle{
+    font-weight:400;
+    font-size:27px;
+}

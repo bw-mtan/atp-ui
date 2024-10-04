@@ -1,0 +1,39 @@
+.li-border {
+    border: 1px solid rgba(22, 54, 94, 0.15);
+    border-radius: 1rem;
+    margin-top:24px;
+}
+.action-button {
+    padding-top:20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.list-title{
+    line-height: 1.5rem;
+    letter-spacing: 0.00938em;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.list-column{
+    width: 110px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.secondary-text{
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    color: rgba(0, 0, 0, 0.6);
+}
+.divider-column{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.divider-column.divider {
+    height: 48px;
+    border-left: 1px solid rgb(0,0,0,.1);
+}
+.button-width {
+    width: 157px;
+}

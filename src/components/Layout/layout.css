@@ -1,0 +1,6 @@
+.fixed-top {
+    display: "flex";
+    width: "100%";
+    flex-Direction: "column";
+    align-Items: "center";
+}

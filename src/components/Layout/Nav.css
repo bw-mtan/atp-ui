@@ -1,0 +1,133 @@
+/*
+.topNavigation {
+  display: flex;
+  height: 56px;
+  padding: 0px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  background: #0c2340;
+}
+*/
+/*
+.topNavStates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(12, 35, 64);
+  flex: 1 0 0;
+  align-self: stretch;
+}
+*/
+.topNavStates {
+ /* display: flex;*/
+  height: 56px;
+/*  justify-content: space-between;*/
+ /* align-items: center;*/
+  background: rgb(12, 35, 64);
+ /* flex: 1 0 0;*/
+}
+.dbLogo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffffff;
+}
+
+.dbText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: -2px;
+  color: #ffffff;
+}
+
+.typoText {
+  color: #fff;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Deutsche Bank Text;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  /* 19.6px */
+}
+
+.iconLayout {
+  width: 24px;
+  height: 24px;
+}
+
+.rightMenu {
+  display: flex;
+  padding: 0px 4px;
+  align-items: center;
+  gap: 6px;
+}
+
+.iconButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dropdown-menu li {
+  position: relative;
+}
+
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  left: "100%";
+  top: -7px;
+  background: #fff;
+}
+
+.dropdown-menu .dropdown-submenu-left {
+  right: "100%";
+  left: auto;
+}
+
+.dropdown-menu:hover>li:hover>.dropdown-submenu:hover {
+  display: block;
+}
+
+.dropdown-item>.dropdown-toggle a::after {
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: 0.8em;
+}
+
+.activeClass {
+  background-color: #0098db33;
+}
+
+.menu-item {
+  font-size: 14px !important;
+}
+
+
+.bizEventButton {
+  font-family: Deutsche Bank Text;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: black;
+  margin-left: 50px;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #b5b5b5;
+  border-radius: 5px;
+}
+.horiz-menu > div {
+  display: inline-block;
+}
+.MuiTab-textColorPrimary {
+  color: #fff !important;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "tokens",
+  "version": "0.1.0",
+  "type": "module",
+  "files": [
+    "dist/tokens.*",
+    "dist/css",
+    "dist/src"
+  ],
+  "main": "./dist/tokens.cjs.js",
+  "module": "./dist/tokens.esm.js",
+  "types": "./dist/src/lib/tokens/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/src/lib/tokens/index.d.ts",
+      "import": "./dist/tokens.esm.js",
+      "require": "./dist/tokens.cjs.js"
+    },
+    "./css/*": {
+      "import": "./dist/css/*",
+      "require": "./dist/css/*"
+    }
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "polished": "^4.2.2",
+    "typescript": "^4.9.5",
+    "vite": "^4.5.0",
+    "vite-plugin-dts": "^3.6.0"
+  }
+}

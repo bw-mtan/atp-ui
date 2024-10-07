@@ -1,0 +1,22 @@
+{
+  "name": "ui-core",
+  "version": "1.0.0",
+  "description": "UI",
+  "type": "module",
+  "main": "dist/ui-core.cjs.js",
+  "module": "dist/ui-core.esm.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "CHANGELOG.md",
+    "CHANGELOG.old.md",
+    "datagrid",
+    "datepicker",
+    "dist",
+    "/src/**/*.svg"
+  ],
+
+  "sideEffects": false,
+  "author": "",
+  "license": "UNLICENSED"
+ 
+}

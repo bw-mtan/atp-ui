@@ -1,0 +1,95 @@
+export declare const colors: {
+  readonly white: '#fff';
+  readonly black: '#000';
+  readonly neutralLight: {
+    readonly 50: '#f8fafb';
+    readonly 100: '#e9ebee';
+    readonly 200: '#ced3d9';
+    readonly 300: '#bbbfc4';
+    readonly 400: '#aeb3b7';
+    readonly 500: '#9da3a9';
+    readonly 600: '#8a9198';
+    readonly 700: '#6e7783';
+    readonly 800: '#4d5662';
+    readonly 900: '#283341';
+    readonly 950: '#0f1c2b';
+  };
+  readonly primaryLight: {
+    readonly 50: '#f5f9fe';
+    readonly 100: '#e5eef8';
+    readonly 200: '#d2e2f6';
+    readonly 300: '#b1ccf1';
+    readonly 400: '#6a9fe7';
+    readonly 500: '#4a91f4';
+    readonly 600: '#2572e2';
+    readonly 700: '#0b62da';
+    readonly 800: '#104ea2';
+    readonly 900: '#112e5a';
+    readonly 950: '#102139';
+  };
+  readonly secondaryLight: {
+    readonly 50: '#edf0f4';
+    readonly 100: '#e5e9ee';
+    readonly 200: '#d2d8dd';
+    readonly 300: '#b1b9c3';
+    readonly 400: '#798697';
+    readonly 500: '#586c85';
+    readonly 600: '#30445d';
+    readonly 700: '#223751';
+    readonly 800: '#0c2340';
+    readonly 900: '#041b3f';
+    readonly 950: '#031126';
+  };
+  readonly infoLight: {
+    readonly 50: '#f5fafc';
+    readonly 100: '#e6f2f8';
+    readonly 200: '#d0e6f1';
+    readonly 300: '#b5d8e9';
+    readonly 400: '#84bdda';
+    readonly 500: '#49a1cc';
+    readonly 600: '#1d92cc';
+    readonly 700: '#0a7cb5';
+    readonly 800: '#05415e';
+    readonly 900: '#043248';
+    readonly 950: '#001e34';
+  };
+  readonly successLight: {
+    readonly 50: '#f5faf7';
+    readonly 100: '#e7f3ec';
+    readonly 200: '#d1e7da';
+    readonly 300: '#b7dac6';
+    readonly 400: '#87c2a0';
+    readonly 500: '#41b774';
+    readonly 600: '#239956';
+    readonly 700: '#0f8542';
+    readonly 800: '#126938';
+    readonly 900: '#00421c';
+    readonly 950: '#00260f';
+  };
+  readonly warningLight: {
+    readonly 50: '#fffcf5';
+    readonly 100: '#fff6e5';
+    readonly 200: '#ffedc9';
+    readonly 300: '#ffe5b2';
+    readonly 400: '#ffd67d';
+    readonly 500: '#ffc02e';
+    readonly 600: '#ffaa00';
+    readonly 700: '#db7e00';
+    readonly 800: '#96450a';
+    readonly 900: '#682400';
+    readonly 950: '#481c00';
+  };
+  readonly errorLight: {
+    readonly 50: '#fdf7f7';
+    readonly 100: '#faeaea';
+    readonly 200: '#f6d7d7';
+    readonly 300: '#f1c0c0';
+    readonly 400: '#e99696';
+    readonly 500: '#ec5e5e';
+    readonly 600: '#d84a4a';
+    readonly 700: '#d22d2d';
+    readonly 800: '#8b1e1e';
+    readonly 900: '#470f0f';
+    readonly 950: '#220707';
+  };
+};

@@ -1,0 +1,8 @@
+{
+  "name": "ui-core/datepicker",
+  "type": "module",
+  "main": "../dist/datepicker.cjs.js",
+  "module": "../dist/datepicker.esm.js",
+  "types": "../dist/src/entries/datepicker.d.ts",
+  "sideEffects": false
+}
